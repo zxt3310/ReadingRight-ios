@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1,alignItems:center" attr="">
+    <UIView layout="width:70%,flex:1" attr="">
+        <FlexCollectionView name="bookCollection" layout="flex:1" attr="bgColor:clear"/>
+    </UIView>
+
+    <FlexTouchView onPress="naviBack" layout="position:absolute,bottom:10%,right:20" attr="underlayColor:darkGray">
+        <UIImageView layout="padding:35/15/35/15,flexDirection:row" attr="source:btn_bg_n">
+            <UIImageView layout="width:20,height:20" attr="source:back_w"/>
+            <UIView layout="width:15" attr=""/>
+            <UILabel name="" layout="" attr="fontSize:16,color:white,text:返回"/>
+        </UIImageView>
+    </FlexTouchView>
+</UIView>

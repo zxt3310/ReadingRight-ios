@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1,padding:30/0/30/0,justifyContent:space-evenly" attr="">
+    <UIView layout="flexDirection:row,justifyContent:space-between,alignItems:center" attr="">
+        <UILabel name="" layout="" attr="fontSize:18,color:#333333,text:请选择背景"/>
+        <FlexTouchView onPress="chooseBgi" layout="justifyContent:center,alignItems:center,width:80,height:35" attr="borderRadius:12,bgColor:#f99a2f">
+            <UILabel name="" layout="" attr="fontSize:14,color:white,text:确定"/>
+        </FlexTouchView>
+    </UIView>
+    
+    <UIView name="selView" layout="flexDirection:row,justifyContent:space-around,alignItems:center" attr="">
+        <ZWYTouchView name="" onPress="subSwitch:" layout="width:35%,aspectRatio:1" attr="activeOpacity:1,selected:subIndex==0">
+            <UIImageView layout="width:100%,height:100%" attr="borderColor:#ffc85f,borderWidth:6,borderRadius:25,source:main_bg,selected:true,clipsToBounds:true"/>
+
+            <UIImageView layout="width:100%,height:100%" attr="borderColor:#F1F1F1,borderWidth:6,borderRadius:25,source:main_bg,clipsToBounds:true"/>
+        </ZWYTouchView>
+
+        <ZWYTouchView name="" onPress="subSwitch:" layout="width:35%,aspectRatio:1" attr="activeOpacity:1,selected:subIndex==1">
+            <UIImageView layout="width:100%,height:100%" attr="borderColor:#ffc85f,borderWidth:6,borderRadius:25,source:wood,selected:true,clipsToBounds:true"/>
+
+            <UIImageView layout="width:100%,height:100%" attr="borderColor:#F1F1F1,borderWidth:6,borderRadius:25,source:wood,clipsToBounds:true"/>
+        </ZWYTouchView>
+    </UIView>
+</UIView>

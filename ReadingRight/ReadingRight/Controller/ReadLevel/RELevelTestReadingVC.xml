@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1,alignItems:center" attr="">
+    <UIView layout="width:85%,flex:1" attr="bgColor:white">
+        <UIView name="" layout="flexDirection:row,height:78,alignItems:center,padding:30/0/30/0" attr="">
+            <UIView layout="flexDirection:row,flex:2,justifyContent:space-around,alignItems:center" attr="">
+                <UILabel name="titleLb" layout="" attr="fontSize:20,color:#333333,text:《我的生日》"/>
+                <UILabel name="countLb" layout="" attr="fontSize:20,color:#333333,text:107字"/>
+            </UIView>
+            
+            <FlexTouchView name="testBtn" onPress="gotoTest" layout="justifyContent:center,alignItems:center,width:120,height:40" attr="underlayColor:darkGray,borderWidth:1,borderColor:#333333,borderRadius:20">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,text:开始答题"/>
+            </FlexTouchView>
+        </UIView>
+        <UIView name="" layout="flex:1" attr="bgColor:#e8efd6,clipsToBounds:true">
+            <FlexScrollView name="_contentView" layout="flex:1,width:100%,padding:60/0/60/0" attr="vertScroll:true">
+                <UIView layout="width:100%" attr="">
+                    
+                </UIView>
+            </FlexScrollView>
+        </UIView>
+
+        <UIView name="" layout="flexDirection:row,height:80,justifyContent:space-between,alignItems:center,padding:30/0/30/0" attr="">
+            <FlexTouchView onPress="playOn" layout="flexDirection:row,justifyContent:center,alignItems:center,width:120,height:40" attr="underlayColor:darkGray,borderWidth:1,borderColor:#333333,borderRadius:20">
+                <UILabel name="bgmLb" layout="" attr="fontSize:16,color:#333333,text:打开背景音乐"/>
+            </FlexTouchView>
+            
+            <UIView name="countDownView" layout="flexDirection:row" attr="">
+                <UILabel name="" layout="" attr="fontSize:16,color:#333333,text:已用时:"/>
+                <UILabel name="timerLb" layout="" attr="fontSize:16,color:#333333,text:s"/>
+            </UIView>
+            
+            <FlexTouchView onPress="naviBack" layout="flexDirection:row,justifyContent:center,alignItems:center,width:120,height:40" attr="underlayColor:darkGray,borderWidth:1,borderColor:#333333,borderRadius:20">
+                <UIImageView attr="source:back_b"/>
+                <UILabel name="" layout="" attr="fontSize:16,color:#333333,text:返回"/>
+            </FlexTouchView>
+        </UIView>
+    </UIView>
+</UIView>

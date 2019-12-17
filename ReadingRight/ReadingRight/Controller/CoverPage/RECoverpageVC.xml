@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1" attr="">
+    <UIImageView layout="flex:1,justifyContent:flex-end" attr="source:cover,userInteractionEnabled:true">
+        <REBgiSelView name="bgiView" layout="alignSelf:center,width:40%,height:32%" attr="bgColor:white,borderColor:#ffc85f,borderWidth:6,borderRadius:25,hidden:true">
+        </REBgiSelView>
+
+        <UIView layout="flexDirection:row,height:30%,justifyContent:center,alignItems:center" attr="">
+            <FlexTouchView onPress="selectBgi" layout="width:80,height:80" attr="underlayColor:darkGray">
+                <UIImageView layout="flex:1,justifyContent:center,alignItems:center" attr="source:zhutiBtn">
+                    <UILabel name="" layout="" attr="fontSize:20,color:white,text:设置"/>
+                </UIImageView>
+            </FlexTouchView>
+
+            <UIView layout="width:20" attr="">
+            
+            </UIView>
+
+            <FlexTouchView onPress="goToStart" layout="width:200,height:80" attr="">
+                <UIImageView layout="flex:1,justifyContent:center,alignItems:center" attr="source:zhutiStart">
+                    <UILabel name="" layout="" attr="fontSize:20,color:white,text:开始速读"/>
+                </UIImageView>
+            </FlexTouchView>
+        </UIView>
+    </UIImageView>
+</UIView>

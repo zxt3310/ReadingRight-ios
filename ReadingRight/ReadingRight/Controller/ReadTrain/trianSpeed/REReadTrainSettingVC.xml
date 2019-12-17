@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1,flexDirection:row" attr="">
+    <UIView name="chooseView" layout="width:30%,justifyContent:center" attr="">
+        
+    </UIView>
+    <UIView layout="flex:1" attr="">
+        <UIView layout="height:15%" attr=""/>
+        <UIView layout="flex:1,justifyContent:space-around,alignItems:center" attr="">
+            <UIView layout="width:45%,justifyContent:space-around,alignItems:center,aspectRatio:1,padding:20" attr="bgColor:#f99a2f,borderWidth:6,borderColor:#fe8503,borderRadius:25">
+                <UIImageView layout="width:45%,aspectRatio:1,padding:0/7/7/0" attr="source:book">
+                    <UIImageView name="faceImgView" layout="width:100%,height:100%" attr=""/>
+                </UIImageView>
+                <UILabel name="titleLb" layout="" attr="fontSize:30,color:white,text:"/>
+                <UIView layout="alignItems:center" attr="">
+                    <UILabel name="abstractLb" layout="" attr="fontSize:16,color:white,text:"/>
+                    <UILabel name="speedLb" layout="" attr="fontSize:16,color:white,text:"/>
+                </UIView>
+            </UIView>
+        </UIView>
+
+        <UIView name="" layout="padding:40" attr="">
+            <UIView name="decorationView" layout="height:10" attr="bgColor:green,shadowColor:black,shadowOpacity:0.8,shadowOffset:-4/10">
+
+            </UIView>
+        </UIView>
+
+        <UIView layout="height:25%,flexDirection:row,justifyContent:space-evenly,alignItems:center" attr="">
+            <FlexTouchView onPress="startRead" layout="" attr="">
+                <UIImageView layout="padding:35/15/35/15" attr="source:btn_bg_n">
+                    <UILabel name="" layout="" attr="fontSize:16,color:white,text:开始阅读"/>
+                </UIImageView>
+            </FlexTouchView>
+
+            <FlexTouchView onPress="naviBack" layout="" attr="">
+                <UIImageView layout="padding:35/15/35/15,flexDirection:row" attr="source:btn_bg_n">
+                    <UIImageView layout="width:20,height:20" attr="source:back_w"/>
+                    <UIView layout="width:15" attr=""/>
+                    <UILabel name="" layout="" attr="fontSize:16,color:white,text:返回"/>
+                </UIImageView>
+            </FlexTouchView>
+        </UIView>
+    </UIView>
+</UIView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1" attr="">
+    <UIImageView layout="width:100%,aspectRatio:1,padding:0/7/7/0" attr="source:book">
+        <UIImageView layout="width:100%,height:100%" name="faceImgView" attr=""/>
+    </UIImageView>
+    <UIView layout="flex:1,justifyContent:center,alignItems:center" attr="">
+        <UILabel name="titleLb" layout="" attr="fontSize:16,color:white,linesNum:0,text:"/>
+    </UIView>
+</UIView>

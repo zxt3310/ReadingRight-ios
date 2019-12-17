@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1,alignItems:center" attr="">
+    <UIView layout="flex:1, width:70%" attr="">
+        <UIImageView layout="flex:1,width:100%,paddingBottom:30" attr="source:paper,userInteractionEnabled:true">
+            <UIView layout="flexDirection:row,padding:20,alignItems:center" attr="">
+                <UILabel name="titleLb" layout="margin:30/0/40/0" attr="fontSize:24,color:#333333,text:《相信自己》"/>
+                <UILabel name="countLb" layout="" attr="fontSize:20,color:#333333,text:509字"/>
+            </UIView>
+
+            <FlexScrollView name="questionView" layout="flex:1" attr="vertScroll:true">
+
+            </FlexScrollView>
+        </UIImageView>
+    </UIView>
+    
+    <FlexTouchView onPress="naviBack" layout="position:absolute,bottom:5%,right:20" attr="underlayColor:darkGray">
+        <UIImageView layout="padding:25/15/25/15,flexDirection:row" attr="source:btn_bg_n">
+            <UIImageView layout="width:20,height:20" attr="source:back_w"/>
+            <UIView layout="width:15" attr=""/>
+            <UILabel name="" layout="" attr="fontSize:16,color:white,text:返回"/>
+        </UIImageView>
+    </FlexTouchView>
+</UIView>

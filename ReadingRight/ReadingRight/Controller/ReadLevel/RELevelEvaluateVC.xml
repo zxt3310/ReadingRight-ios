@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1,padding:30" attr="">
+    <UIView name="levelView" layout="flex:1,width:85%,flexWrap:wrap,padding:0/30/0/30" attr="bgColor:white">
+        <UIView layout="flexDirection:row,justifyContent:center,alignItems:center,width:50%,height:100" attr="tag:1000">
+            <UIImageView layout="width:50,height:50" attr="source:level1"/>
+            <UIView layout="width:20" attr=""/>
+            <UILabel name="" layout="" attr="fontSize:20,color:#333333,text:幼儿园级：1000字/分"/>
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:center,alignItems:center,width:50%,height:100" attr="tag:2000">
+            <UIImageView layout="width:50,height:50" attr="source:level2"/>
+            <UIView layout="width:20" attr=""/>
+            <UILabel name="" layout="" attr="fontSize:20,color:#333333,text:学前班级：2000字/分"/>
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:center,alignItems:center,width:50%,height:100" attr="tag:3000">
+            <UIImageView layout="width:50,height:50" attr="source:level3"/>
+            <UIView layout="width:20" attr=""/>
+            <UILabel name="" layout="" attr="fontSize:20,color:#333333,text:小学生级：3000字/分"/>
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:center,alignItems:center,width:50%,height:100" attr="tag:4000">
+            <UIImageView layout="width:50,height:50" attr="source:level4"/>
+            <UIView layout="width:20" attr=""/>
+            <UILabel name="" layout="" attr="fontSize:20,color:#333333,text:初中生级：4000字/分"/>
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:center,alignItems:center,width:50%,height:100" attr="tag:5000">
+            <UIImageView layout="width:50,height:50" attr="source:level5"/>
+            <UIView layout="width:20" attr=""/>
+            <UILabel name="" layout="" attr="fontSize:20,color:#333333,text:高中生级：5000字/分"/>
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:center,alignItems:center,width:50%,height:100" attr="tag:6000">
+            <UIImageView layout="width:50,height:50" attr="source:level6"/>
+            <UIView layout="width:20" attr=""/>
+            <UILabel name="" layout="" attr="fontSize:20,color:#333333,text:大学生级：6000字/分"/>
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:center,alignItems:center,width:50%,height:100" attr="tag:8000">
+            <UIImageView layout="width:50,height:50" attr="source:level7"/>
+            <UIView layout="width:20" attr=""/>
+            <UILabel name="" layout="" attr="fontSize:20,color:#333333,text:硕士级：8000字/分"/>
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:center,alignItems:center,width:50%,height:100" attr="tag:9500">
+            <UIImageView layout="width:50,height:50" attr="source:level8"/>
+            <UIView layout="width:20" attr=""/>
+            <UILabel name="" layout="" attr="fontSize:20,color:#333333,text:博士级：9500字/分"/>
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:center,alignItems:center,width:50%,height:100" attr="tag:11000">
+            <UIImageView layout="width:50,height:50" attr="source:level9"/>
+            <UIView layout="width:20" attr=""/>
+            <UILabel name="" layout="" attr="fontSize:20,color:#333333,text:专家级：11000字/分"/>
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:center,alignItems:center,width:50%,height:100" attr="tag:16000">
+            <UIImageView layout="width:50,height:50" attr="source:level10"/>
+            <UIView layout="width:20" attr=""/>
+            <UILabel name="" layout="" attr="fontSize:20,color:#333333,text:大师级：16000字/分"/>
+        </UIView>
+    </UIView>
+
+    <FlexTouchView onPress="naviBack" layout="position:absolute,bottom:10%,right:30" attr="underlayColor:darkGray">
+        <UIImageView layout="padding:35/15/35/15,flexDirection:row" attr="source:btn_bg_n">
+            <UIImageView layout="width:20,height:20" attr="source:back_w"/>
+            <UIView layout="width:15" attr=""/>
+            <UILabel name="" layout="" attr="fontSize:16,color:white,text:返回"/>
+        </UIImageView>
+    </FlexTouchView>
+</UIView>

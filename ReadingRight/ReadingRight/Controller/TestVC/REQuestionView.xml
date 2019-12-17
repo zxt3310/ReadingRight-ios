@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="padding:30" attr="">
+    <UILabel name="questLb" layout="" attr="fontSize:18,color:#333333,linesNum:0,text:asdfasdf"/>
+    <UIView name="optionView" layout="flexDirection:row,width:100%,padding:0/30/0/0" attr="">
+    
+    </UIView>
+</UIView>

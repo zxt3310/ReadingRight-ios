@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1" attr="">
+    <UIView layout="height:50%" attr="">
+        <FlexTouchView onPress="naviBack" layout="position:absolute,top:50,right:50" attr="">
+            <UIImageView layout="padding:25/20/25/20,flexDirection:row" attr="source:main_btn_bg">
+                <UIImageView layout="width:20,height:20" attr="source:back_w"/>
+                <UIView layout="width:15" attr=""/>
+                <UILabel name="" layout="" attr="fontSize:16,color:white,text:返回"/>
+            </UIImageView>
+        </FlexTouchView>
+    </UIView>
+    <UIView layout="height:50%,justifyContent:center" attr="">
+        <UIView layout="width:100%,flexDirection:row,justifyContent:space-evenly" attr="">
+            <FlexTouchView onPress="readTrain" layout="width:180,height:80" attr="">
+                <UIImageView layout="justifyContent:center,alignItems:center,width:100%,height:100%" attr="source:main_btn_bg,contentMode:scaleToFill">
+                    <UILabel name="" layout="" attr="fontSize:18,color:white,text:速读训练"/>
+                </UIImageView>
+            </FlexTouchView>
+
+            <FlexTouchView onPress="readLimited" layout="width:180,height:80" attr="">
+                <UIImageView layout="justifyContent:center,alignItems:center,width:100%,height:100%" attr="source:main_btn_bg,contentMode:scaleToFill">
+                    <UILabel name="" layout="" attr="fontSize:18,color:white,text:限时阅读"/>
+                </UIImageView>
+            </FlexTouchView>
+
+            <FlexTouchView onPress="readLevel" layout="width:180,height:80" attr="">
+                <UIImageView layout="justifyContent:center,alignItems:center,width:100%,height:100%" attr="source:main_btn_bg,contentMode:scaleToFill">
+                    <UILabel name="" layout="" attr="fontSize:18,color:white,text:速读测评"/>
+                </UIImageView>
+            </FlexTouchView>
+
+            <FlexTouchView onPress="giftTrain" layout="width:180,height:80" attr="">
+                <UIImageView layout="justifyContent:center,alignItems:center,width:100%,height:100%" attr="source:main_btn_bg,contentMode:scaleToFill">
+                    <UILabel name="" layout="" attr="fontSize:18,color:white,text:潜能训练"/>
+                </UIImageView>
+            </FlexTouchView>
+        </UIView>
+    </UIView>
+</UIView>

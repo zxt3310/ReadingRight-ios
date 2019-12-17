@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1,flexDirection:center,justifyContent:center,alignItems:center" attr="">
+    <UIView layout="justifyContent:space-evenly,alignItems:center,padding:20,width:60%,height:50%" attr="borderWidth:10,borderColor:#ff7720,borderRadius:30,bgColor:#e8dfd6">
+        <UIView name="_downView" layout="padding:10,width:100%" attr="hidden:true">
+            <UIView layout="padding:4,height:50" attr="bgColor:#ca3f16,borderRadius:25">
+                <UIView layout="width:100%,height:100%" attr="clipsToBounds:true,borderRadius:22">
+                    <UIView name="_percentView" layout="width:0,height:100%" attr="bgColor:#f99a2f"/>
+                    <UIView layout="position:absolute,justifyContent:center,alignItems:center,top:0,left:0,height:100%,width:100%" attr="">
+                        <UILabel name="_percentLb" layout="" attr="fontSize:14,color:white,text:"/>
+                    </UIView>
+                </UIView>
+            </UIView>
+                <UIView layout="padding:10,alignItems:center" attr="">
+                <UILabel name="_stateLb" layout="" attr="fontSize:14,color:#909090,text:正在下载资源，请稍后..."/>
+            </UIView>
+        </UIView>
+
+        <UIView layout="padding:10,width:50%,height:50,justifyContent:center" attr="bgColor:#ffc85f,borderWidth:1,borderColor:#ff7720">
+            <UITextField name="_activeTF" layout="" attr="fontSize:14,color:black,textAlign:left,placeholder:请输入激活码,text:,textAlign:center"/>
+        </UIView>
+ 
+        <UIView layout="width:150,height:50,alignItems:center,justifyContent:center" attr="">
+            <FlexTouchView name="_actBtn" onPress="activeDevice" layout="width:100%,height:100%" attr="underlayColor:#F1F1F1">
+                <UIImageView layout="flex:1,justifyContent:center,alignItems:center" attr="source:btn_bg_n,userInteractionEnabled:true">
+                    <UILabel name="" layout="" attr="fontSize:14,color:white,text:确  认"/>
+                </UIImageView>
+            </FlexTouchView>
+        </UIView>
+    </UIView>
+
+    <UIImageView layout="position:absolute, top:0,left:0,width:170,height:72" attr="source:logo"/>
+</UIView>
+

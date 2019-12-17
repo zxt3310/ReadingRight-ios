@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="justifyContent:center,alignItems:center,padding:10" attr="">
+    <UIView name="cellView" layout="width:80%,height:50,justifyContent:center,alignItems:center" attr="borderColor:#ffc85f,borderWidth:6,borderRadius:25,bgColor:#f99a2f">
+        <UILabel name="titleLb" layout="" attr="fontSize:16,color:white,linesNum:0,text:"/>
+    </UIView>
+</UIView>

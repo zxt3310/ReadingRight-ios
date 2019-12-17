@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1,flexDirection:row" attr="">
+    <UIView layout="width:30%" attr="">
+        <UIView layout="height:22%" attr="">
+            
+        </UIView>
+        <ReadSpeedUtily name="speedView" layout="flex:1" attr="">
+            
+        </ReadSpeedUtily>
+        <UIView layout="height:20%,justifyContent:center,alignItems:center" attr="">
+            <FlexTouchView onPress="naviBack" layout="" attr="">
+                <UIImageView layout="padding:35/15/35/15,flexDirection:row" attr="source:btn_bg_n">
+                    <UIImageView layout="width:20,height:20" attr="source:back_w"/>
+                    <UIView layout="width:15" attr=""/>
+                    <UILabel name="" layout="" attr="fontSize:16,color:white,text:返回"/>
+                </UIImageView>
+            </FlexTouchView>
+        </UIView>
+    </UIView>
+    <UIView layout="flex:1" attr="">
+        <FlexCollectionView name="bookCollection" layout="flex:1" attr="bgColor:clear"/>
+    </UIView>
+</UIView>

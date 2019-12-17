@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1" attr="">
+    <UIImageView layout="flex:1" attr="source:side_bg_s,userInteractionEnabled:true">
+        <UIView layout="flex:1" attr="">
+            <UIView name="gradeView" layout="flexDirection:row,justifyContent:space-around,marginTop:-25" attr="">
+                <ZWYTouchView name="lowBtn" onPress="subSwitch:" layout="width:45%,height:50" attr="borderColor:#ffc85f,borderWidth:6,borderRadius:25,activeOpacity:1,selected:subIndex==0,clipsToBounds:true">
+                    <UIView layout="width:100%,height:100%,justifyContent:center, alignItems:center" attr="bgColor:white,selected:true">
+                        <UILabel name="lowLb" layout="" attr="fontSize:16,color:#f99a2f,selected:true,text:低阶训练"/>
+                    </UIView>
+
+                    <UIView layout="width:100%,height:100%,justifyContent:center, alignItems:center" attr="bgColor:#f99a2f">
+                        <UILabel name="lowLb" layout="" attr="fontSize:16,color:white,text:低阶训练"/>
+                    </UIView>
+                </ZWYTouchView>
+
+                <ZWYTouchView name="highBtn" onPress="subSwitch:" layout="width:45%,height:50" attr="borderColor:#ffc85f,borderWidth:6,borderRadius:25,activeOpacity:1,selected:subIndex==1,clipsToBounds:true">
+                    <UIView layout="width:100%,height:100%,justifyContent:center, alignItems:center" attr="bgColor:white,selected:true">
+                        <UILabel name="lowLb" layout="" attr="fontSize:16,color:#f99a2f,selected:true,text:高阶训练"/>
+                    </UIView>
+
+                    <UIView layout="width:100%,height:100%,justifyContent:center, alignItems:center" attr="bgColor:#f99a2f">
+                        <UILabel name="lowLb" layout="" attr="fontSize:16,color:white,text:高阶训练"/>
+                    </UIView>
+                </ZWYTouchView>
+            </UIView>
+
+            <UILabel name="titleLb" layout="alignSelf:center,margin:0/20/0/5" attr="fontSize:22,color:black,text:速度选择,hidden:true"/>
+
+            <UIView name="_speedSwitchView" layout="flex:1,margin:10" attr="">
+                <UITableView name="speedTable" layout="flex:1" attr=""/>
+            </UIView>
+        </UIView>
+    </UIImageView>
+</UIView>
